@@ -1,0 +1,1 @@
+SELECT post_id, tilte FROM posts WHERE title LIKE 'S%';

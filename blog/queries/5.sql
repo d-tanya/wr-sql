@@ -1,0 +1,1 @@
+SELECT posts.post_id, tags.tag_id FROM posts LEFT JOIN tags ON posts.post_id=tags.post_id WHERE tags.post_id IS NULL;

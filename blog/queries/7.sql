@@ -1,0 +1,1 @@
+SELECT name, COUNT(tag_id) FROM tags GROUP BY post_id;

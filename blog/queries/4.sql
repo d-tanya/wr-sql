@@ -1,0 +1,1 @@
+SELECT posts.post_id, posts.title, tag.name FROM posts INNER JOIN tags ON posts.post_id=tags.post_id;

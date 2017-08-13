@@ -1,0 +1,2 @@
+SELECT authors.author_id, posts.post_id, COUNT(tags.tag_id) FROM authors LEFT JOIN posts ON authors.author_id=posts.author_id
+LEFT JOIN tags ON posts.post_id=tags.post_id GROUP BY authors.authors_id ORDER BY COUNT(tags.tag_id) DESC LIMIT 5;

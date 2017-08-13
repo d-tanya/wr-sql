@@ -1,0 +1,1 @@
+SELECT COUNT(post_id) FROM posts WHERE day=(SELECT MAX(day) FROM posts);
